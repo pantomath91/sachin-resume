@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="w-screen">
       <Head>
-        <title>Priyankar's Portfolio</title>
+        <title>Sachin Portfolio</title>
       </Head>
       <div>
         <Header />

@@ -8,7 +8,7 @@ export const Header = () => {
         <div className="flex flex-col">
             <div className="font-display text-2xl font-bold">
                 SACHIN LOHANI <span>
-                    <a href="https://github.com/priyankark/PriyankarKumarResume/raw/master/PriyankarKumar.pdf" title="Download Resume" download> <FontAwesomeIcon icon={faDownload} /> </a>
+                    <a href="https://github.com/pantomath91/Resume/raw/master/Sachin_Lohani_Resume.pdf" title="Download Resume" download> <FontAwesomeIcon icon={faDownload} /> </a>
                 </span>
             </div>
             <div className="font-display text-xs font-light mx-auto">
