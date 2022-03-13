@@ -16,7 +16,7 @@
     "vertical-stepper-nav": "^1.0.2"
   },
   "devDependencies": {
-    "@types/node": "^17.0.21",
+    "@types/node": "^17.0.0",
     "@types/react": "^17.0.3",
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.9",
