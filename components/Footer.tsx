@@ -9,7 +9,7 @@ export const Footer = () => {
             {`Designed & Developed by Sachin Lohani`}
         </div>
         <div className="mx-auto">
-            <span> Built with <FontAwesomeIcon icon={faHeart} /> using  <FontAwesomeIcon icon={faReact} /> , Next.js and Tailwind CSS </span>
+            <span> Built with Next.js and Tailwind CSS </span>
         </div>
     </footer>
 }
