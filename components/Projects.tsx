@@ -18,9 +18,6 @@ const projects = [
                 <a href="https://play.google.com/store/apps/details?id=com.apollo.patientapp&hl=en_US" target="_blank" className="ml-2">
                     <FontAwesomeIcon icon={faGooglePlay} />
                 </a>
-                <a href="https://github.com/priyankark/PhonePi_SampleServer" target="_blank" className="ml-2">
-                    <FontAwesomeIcon icon={faGithub} />
-                </a>
             </div>
         }
     },
@@ -30,7 +27,7 @@ const projects = [
         link: () => {
             return <div className="flex flex-row text-lg">
                 <a href="https://play.google.com/store/apps/details?id=com.scripbox.takecharge&gclid=Cj0KCQjw6KunBhDxARIsAKFUGs-HZEqr6gmidgsV9xMpk7xJotJ0UPOLadWQWDdxMjDUvnjRrYiOGfYaAn5oEALw_wcB" target="_blank" className="ml-2">
-                    <FontAwesomeIcon icon={faAmazon} />
+                    <FontAwesomeIcon icon={faGooglePlay} />
                 </a>
             </div>
         }
@@ -41,7 +38,7 @@ const projects = [
         link: () => {
             return <div className="flex flex-row text-lg">
                 <a href="https://play.google.com/store/apps/details?id=com.netspend.product.android&hl=en&gl=US" target="_blank" className="ml-2">
-                    <FontAwesomeIcon icon={faAmazon} />
+                    <FontAwesomeIcon icon={faGooglePlay} />
                 </a>
             </div>
         }
