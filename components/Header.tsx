@@ -12,7 +12,7 @@ export const Header = () => {
                 </span>
             </div>
             <div className="font-display text-xs font-light mx-auto">
-                SENIOR SOFTWARE ENGINEER
+                PRINCIPAL SOFTWARE ENGINEER
             </div>
             <div className="mx-auto">
                 <SocialMediaPanel />
