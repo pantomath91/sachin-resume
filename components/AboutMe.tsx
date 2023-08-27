@@ -5,7 +5,7 @@ export const AboutMe = ()=>{
     return <blockquote className="font-body p-2 rounded-lg shadow-lg">
         <h3 className="font-semibold font-display">About Me</h3>
         <p className="mt-2">
-        I currently work as a Senior Software Engineer at Scripbox Advisory Private Limited with carrying exp of <b>7+</b> years in the product development team (scripbox). 
+        I currently work as a Principal Software Engineer at Apollo 247 Pharmacy with carrying exp of <b>9</b> years in the product development team (scripbox). 
         </p>
         <p className="mt-2">
         As a frontend-stack developer, I get to dabble with a variety of technologies in front-end, and sometime in back-end as well when required to develop of fixing some of the scripbox api. 
