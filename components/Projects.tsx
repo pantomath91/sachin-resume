@@ -11,11 +11,11 @@ interface IPropsDescription {
 
 const projects = [
     {
-        name: 'Phone Pi Sensor Streamer',
-        description: 'An Android app that allows the user to stream phone sensor info in realtime to a provided server running on their Raspberry Pi/computer.',
+        name: 'Apollo Pharmacy 24|7',
+        description: 'An Android app that Discover the convenience of health and wellness at your fingertips. Experience a seamless way to manage your healthcare needs anytime, anywhere.',
         link: () => {
             return <div className="flex flex-row text-sm">
-                <a href="https://play.google.com/store/apps/details?id=com.phonepi&hl=en_IN&gl=US" target="_blank" className="ml-2">
+                <a href="https://play.google.com/store/apps/details?id=com.apollo.patientapp&hl=en_US" target="_blank" className="ml-2">
                     <FontAwesomeIcon icon={faGooglePlay} />
                 </a>
                 <a href="https://github.com/priyankark/PhonePi_SampleServer" target="_blank" className="ml-2">
@@ -25,65 +25,23 @@ const projects = [
         }
     },
     {
-        name: 'Resolution Tracker',
-        description: 'An Amazon Alexa Skill that helps keep track of your new year resolutions and helps tweet your progress to your followers.',
+        name: 'Scripbox ',
+        description: 'A smarter way of achieving your financial goals with the Scripbox app. Take control of your investments and secure your financial future with our user-centric and intuitive platform.',
         link: () => {
             return <div className="flex flex-row text-lg">
-                <a href="https://www.amazon.com/Priyankar-Kumar-Resolution-Tracker/dp/B078HHJHF5/ref=sr_1_3?dchild=1&keywords=resolution+tracker&qid=1618128208&s=digital-skills&sr=1-3" target="_blank" className="ml-2">
+                <a href="https://play.google.com/store/apps/details?id=com.scripbox.takecharge&gclid=Cj0KCQjw6KunBhDxARIsAKFUGs-HZEqr6gmidgsV9xMpk7xJotJ0UPOLadWQWDdxMjDUvnjRrYiOGfYaAn5oEALw_wcB" target="_blank" className="ml-2">
                     <FontAwesomeIcon icon={faAmazon} />
                 </a>
             </div>
         }
     },
     {
-        name: 'Trivia Quest',
-        description: 'An Amazon Alexa game to test your wits and climb on top of a global leaderboard.',
+        name: 'Netspend App',
+        description: 'An android app that seamlessly manage your finances on-the-go with a suite of powerful features designed to simplify your financial life.',
         link: () => {
             return <div className="flex flex-row text-lg">
-                <a href="https://www.amazon.com/Invoke-Genie-Trivia-Quest/dp/B07MKPRVPB/ref=sr_1_1?dchild=1&keywords=trivia+quest+alexa&qid=1618128305&sr=8-1" target="_blank" className="ml-2">
+                <a href="https://play.google.com/store/apps/details?id=com.netspend.product.android&hl=en&gl=US" target="_blank" className="ml-2">
                     <FontAwesomeIcon icon={faAmazon} />
-                </a>
-            </div>
-        }
-    },
-    {
-        name: 'Multi-step Wizard Fluent',
-        description: 'A fully cuztomizable React component to build your own multi-step forms.',
-        link: () => {
-            return <div className="flex flex-row text-lg">
-                <a href="https://www.npmjs.com/package/multistep-wizard-fluent" target="_blank" className="ml-2">
-                    <FontAwesomeIcon icon={faNpm} />
-                </a>
-                <a href="https://github.com/priyankark/multistep-wizard-fluent" target="_blank" className="ml-2">
-                    <FontAwesomeIcon icon={faGithub} />
-                </a>
-            </div>
-        }
-    },
-    {
-        name: 'Voice Clues',
-        description: 'A cross platform voice game available on Google Assistant and Amazon Alexa built using Jovo.',
-        link: () => {
-            return <div className="flex flex-row text-lg">
-                <a href="https://www.amazon.in/Priyankar-Kumar-Voice-Clues/dp/B07JJQGPL3/ref=sr_1_1?ie=UTF8&qid=1540278564&sr=8-1&keywords=Voice+Clues" target="_blank" className="ml-2">
-                    <FontAwesomeIcon icon={faAmazon} />
-                </a>
-                <a href="https://assistant.google.com/services/a/uid/0000008ecacec0f2?hl=en" target="_blank" className="ml-2">
-                    <FontAwesomeIcon icon={faGooglePlay} />
-                </a>
-                <a href="https://github.com/priyankark/VoiceClues" target="_blank" className="ml-2">
-                    <FontAwesomeIcon icon={faGithub} />
-                </a>
-            </div>
-        }
-    },
-    {
-        name: 'SMS Genie',
-        description: 'An SMS bot to aid in education in remote areas where internet penetration is poor.',
-        link: () => {
-            return <div className="flex flex-row text-lg">
-                <a href="https://devpost.com/software/sms-genie?ref_content=user-portfolio&ref_feature=in_progress" target="_blank" className="ml-2">
-                    <FontAwesomeIcon icon={faPaperclip} />
                 </a>
             </div>
         }
