@@ -14,9 +14,14 @@ export const TimeLine = () => {
             <StepperNav
                 steps={[
                     {
-                        stepContent: () => <StepContent dates={"Sep 2021 - Present"} position={'SSE'} company={'Scripbox Advisory Private Limited(Talent500)'} />,
+                        stepContent: () => <StepContent dates={"July 2021 - Present"} position={'PSE'} company={'Apollo 247 Pharmacy'} />,
                         stepStatusCircleSize: 24,
                         stepStateColor: "green"
+                    },
+                    {
+                        stepContent: () => <StepContent dates={"Sep 2021 - June 2022"} position={'SSE'} company={'Scripbox Advisory Private Limited(Talent500)'} />,
+                        stepStatusCircleSize: 24,
+                        stepStateColor: "#4338ca"
                     },
                     {
                         stepContent: () => <StepContent dates={"June 2016 - Sep 2021"} position={'SE II G2'} company={'TSYS, A Global Payments Company'} />,
