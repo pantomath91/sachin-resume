@@ -2,8 +2,133 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary: #1E2D56;
+  --primary-light: #4066B3;
+  --secondary: #718096;
+  --accent: #DD6B20;
+  --background: #F7FAFC;
+  --text: #1A202C;
+  --light-text: #4A5568;
+  --card-bg: #ffffff;
+  --transition-ease: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 html,
 body {
- background-color: white;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Enable smooth scrolling for the whole page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better typography defaults */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: -0.025em;
+}
+
+@layer base {
+  /* Make links and buttons feel more responsive */
+  a, button {
+    @apply transition-all duration-200;
+  }
+  /* Image defaults */
+  img {
+    @apply max-w-full h-auto;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-xl font-semibold text-primary-800 border-b-2 border-primary-500 pb-2 mb-6 inline-block;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 p-6;
+  }
+  
+  .skill-pill {
+    @apply px-4 py-1.5 rounded-full text-sm font-medium m-1.5 shadow-skill-pill transition-all duration-200 hover:scale-105 flex items-center;
+  }
+
+  /* Button styles */
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 rounded-md font-medium text-sm transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700 shadow-md hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-primary-700 border border-primary-200 hover:bg-primary-50 hover:border-primary-300;
+  }
+
+  /* Section styling */
+  .section {
+    @apply py-12;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-in;
+}
+
+.slide-up {
+  animation: slideUp 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Enhanced skill bar appearance */
+.skill-bar-bg {
+  @apply bg-gray-200 rounded-full h-2.5 overflow-hidden;
+}
+
+.skill-bar-fill {
+  @apply h-full rounded-full transition-all duration-1000 ease-out;
+  background: linear-gradient(90deg, var(--primary-light) 0%, var(--primary) 100%);
+}
+
+/* Add custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* For Firefox */
+html {
+  scrollbar-color: var(--primary-light) #f1f1f1;
+  scrollbar-width: thin;
 }
