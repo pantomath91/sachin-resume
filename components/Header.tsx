@@ -51,7 +51,7 @@ export const Header = () => {
                                     <div className="flex items-center justify-center w-8 h-8 rounded-full bg-primary-900 bg-opacity-50 mr-2">
                                         <FontAwesomeIcon icon={faMapMarkerAlt} className="text-primary-200" />
                                     </div>
-                                    <span>Delhi/NCR</span>
+                                    <span>Bengaluru</span>
                                 </div>
                                 <div className="flex items-center text-primary-100 hover:text-white transition-colors">
                                     <div className="flex items-center justify-center w-8 h-8 rounded-full bg-primary-900 bg-opacity-50 mr-2">
@@ -71,7 +71,7 @@ export const Header = () => {
                     
                     <div className="flex flex-col items-center md:items-end space-y-4">
                         <a 
-                            href="https://github.com/pantomath91/Resume/raw/master/Sachin_Lohani_Resume.pdf" 
+                            href="/Sachin_Lohani_Resume.pdf" 
                             title="Download Resume" 
                             download
                             className="flex items-center bg-white text-primary-800 hover:bg-primary-50 px-5 py-3 rounded-lg shadow-lg transition-all duration-300 font-medium text-sm hover:shadow-xl transform hover:-translate-y-1"
