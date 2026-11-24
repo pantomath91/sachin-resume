@@ -13,15 +13,15 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       <Head>
-        <title>Sachin Lohani | Senior Frontend Developer | 11+ Years Experience</title>
-        <meta name="description" content="Professional portfolio of Sachin Lohani, a senior Frontend Developer with 11+ years of expertise in React, Next.js, automation testing, and accessibility implementation. PayPal engineer." />
+        <title>Sachin Lohani | Full Stack JavaScript Engineer | 12+ Years</title>
+        <meta name="description" content="Portfolio of Sachin Lohani, Full Stack JavaScript Engineer with 12+ years of experience in React, Electron, Next.js, React Native, Node.js, CI/CD, release engineering and LLM tooling." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="keywords" content="Frontend Developer, React, Next.js, JavaScript, TypeScript, Web Development, Mobile Apps, Accessibility, WCAG, Test Automation, WebdriverIO, Playwright, Selenium, Appium, Harness CI/CD, PayPal" />
+        <meta name="keywords" content="Full Stack JavaScript Engineer, Platform Engineer, React, Electron, Next.js, React Native, Node.js, GraphQL, GitHub Actions, Nx, Rspack, Vitest, Postman, PayPal" />
         <link rel="icon" href="/favicon.ico" />
         
         {/* Open Graph / Social Media */}
-        <meta property="og:title" content="Sachin Lohani | Senior Frontend Developer | 11+ Years Experience | PayPal Engineer" />
-        <meta property="og:description" content="Professional portfolio of Sachin Lohani, a senior Frontend Developer with 11+ years of expertise in React, Next.js, automation testing, and accessibility implementation. PayPal engineer." />
+        <meta property="og:title" content="Sachin Lohani | Full Stack JavaScript Engineer | Postman Platform Engineer" />
+        <meta property="og:description" content="12+ years across React, Electron, Next.js, React Native, Node.js, CI/CD, release engineering and developer experience." />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Sachin Lohani" />
         

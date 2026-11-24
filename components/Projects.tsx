@@ -59,18 +59,32 @@ const WorkExperience: React.FC<WorkExperienceProps> = ({
 export const Projects = () => {
     const experiences = [
         {
+            company: "Postman",
+            position: "Senior Software Engineer – Platform",
+            period: "May 2026 - Present",
+            location: "Bengaluru",
+            icon: faBriefcase,
+            responsibilities: [
+                "Automated the end-to-end release pipeline for <b>Postman desktop and CLI on GitHub Actions</b>, removing manual release steps and moving delivery from monthly to daily.",
+                "Migrated CI from <b>CircleCI to GitHub Actions</b>, rolled out the Graphite merge queue and tightened PR checks so the engineering platform targets sub-8-minute PR lifecycles.",
+                "Led the <b>Jest to Vitest migration</b> across packages, platform libraries, main and renderer, and defined faster, cache-backed build workflows with Rspack.",
+                "Decoupled the large Postman application into modular <b>Nx monorepo packages</b>, enabling independent shipping and reuse across desktop, CLI and VS Code clients.",
+                "Built a Claude-powered PR reviewer bot and Datadog monitors, dashboards and alerts for faster code review and production regression detection.",
+                "Benchmarked TypeScript 7 on a 324-package monorepo and defined a controlled TypeScript 5 to 6 to 7 upgrade path."
+            ]
+        },
+        {
             company: "PayPal Holdings, Inc",
-            position: "Member Of Technical Staff",
-            period: "Dec 2024 - Present",
+            position: "Senior Software Engineer",
+            period: "Dec 2024 - Apr 2026",
             location: "Bengaluru",
             icon: faPaypal,
             responsibilities: [
-                "Led the UI Refresh Project for U.S. consumers, enhancing the user experience with WCAG accessibility standards, resulting in <b>20% improvement in user engagement</b> and <b>15% reduction in bounce rates</b>.",
-                "Developed an End-to-End (E2E) CI/CD Pipeline with <b>Harness</b>, enabling staging and production-like testing with a single PR command, <b>reducing deployment time by 40%</b> and improving developer experience.",
-                "Implemented automated cross-browser and accessibility testing using <b>Playwright and WebdriverIO</b>, ensuring consistent experiences across platforms and <b>compliance with accessibility guidelines</b>.",
-                "Worked in the Credit Collections Department, implementing solutions that <b>improved collections efficiency by 25%</b>, ensuring better recovery across different products and domains at PayPal.",
-                "Led the Migration of the Subscription Product from Angular to <b>Next.js</b>, incorporating accessibility features that led to <b>35% faster checkout experience</b> and <b>22% improvement in page load speed</b>.",
-                "Integrated a Customer Interaction Framework with <b>BrowserStack-based automated testing</b>, enhancing customer support efficiency by <b>30%</b> and reducing average resolution time."
+                "Led the Instant Vault UI redesign in TypeScript across <b>42+ merchants</b>, improving vaulting speed by <b>43%</b> and lifting VSR by <b>295 bps</b> and CVR by <b>154 bps</b>.",
+                "Drove the PPMS Angular-to-Next.js migration and ModXO cross-border expansion, unblocking <b>$20B+ TPV</b> while preserving merchant integrations.",
+                "Moved four applications from <b>Jenkins to Harness 2.0</b> on Kubernetes, reducing deploy time by <b>40%</b>, recovery time by <b>80–85%</b> and achieving a <b>95.57% FT pass rate</b>.",
+                "Certified 128 endpoints in two days and resolved <b>73% of 78 production issues in Q1</b> using React DevTools, Kibana, Datadog, CAL Traces and LogView.",
+                "Built LLM Slack bots for on-call Q&A, alert routing and PagerDuty triage, cutting investigation time by <b>40%</b>."
             ]
         },
         {

@@ -90,7 +90,7 @@ export const SkillsMap = () => {
                 <div>
                     <SkillCategory title="Frontend Development" icon={faCode}>
                         <SkillBar name="JavaScript (ES6+)" percentage={98} icon={faJs} />
-                        <SkillBar name="React.js & Next.js" percentage={96} icon={faReact} />
+                        <SkillBar name="React.js, Next.js & Electron" percentage={96} icon={faReact} />
                         <SkillBar name="TypeScript" percentage={95} icon={faCode} />
                         <SkillBar name="HTML5 & CSS3" percentage={98} icon={faHtml5} />
                         <SkillBar name="Redux Ecosystem" percentage={95} icon={faLayerGroup} />
@@ -122,7 +122,7 @@ export const SkillsMap = () => {
                         <SkillBar name="Harness CI/CD" percentage={92} icon={faCloudArrowUp} />
                         <SkillBar name="GitLab/Jenkins" percentage={94} icon={faGitAlt} />
                         <SkillBar name="Node.js & GraphQL" percentage={90} icon={faNode} />
-                        <SkillBar name="Microservices Architecture" percentage={88} icon={faCogs} />
+                        <SkillBar name="GitHub Actions & Release Engineering" percentage={94} icon={faCogs} />
                         <SkillBar name="AWS Services" percentage={85} icon={faAws} />
                         <SkillBar name="Docker & Containerization" percentage={84} icon={faDocker} />
                     </SkillCategory>
@@ -136,15 +136,15 @@ export const SkillsMap = () => {
                 </h4>
                 <div className="flex flex-wrap">
                     <SkillPill level="expert" text="Web & Mobile Development" icon={faCode} />
-                    <SkillPill level="expert" text="React & Next.js Development" icon={faReact} />
+                    <SkillPill level="expert" text="React, Next.js & Electron" icon={faReact} />
                     <SkillPill level="expert" text="React Native Mobile Apps" icon={faMobile} />
                     <SkillPill level="expert" text="WCAG Accessibility Implementation" icon={faUniversalAccess} />
                     <SkillPill level="expert" text="Test Automation Frameworks" icon={faRobot} />
                     <SkillPill level="expert" text="Unit & Integration Testing" icon={faVial} />
                     <SkillPill level="expert" text="Performance Optimization" icon={faBolt} />
-                    <SkillPill level="proficient" text="CI/CD Pipelines" icon={faCloudArrowUp} />
-                    <SkillPill level="proficient" text="Harness Deployment" icon={faCloudArrowUp} />
-                    <SkillPill level="proficient" text="Containerization (Docker)" icon={faDocker} />
+                    <SkillPill level="proficient" text="GitHub Actions & Release Engineering" icon={faCloudArrowUp} />
+                    <SkillPill level="proficient" text="Nx, Rspack & Monorepo Tooling" icon={faCloudArrowUp} />
+                    <SkillPill level="proficient" text="LLM Bots & Prompt Engineering" icon={faRobot} />
                     <SkillPill level="proficient" text="Firebase Integration" icon={faDatabase} />
                     <SkillPill level="proficient" text="Monorepo Management (Lerna)" icon={faLayerGroup} />
                     <SkillPill level="proficient" text="Micro Frontends" icon={faCode} />

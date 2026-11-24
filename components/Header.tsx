@@ -29,7 +29,7 @@ export const Header = () => {
                             </div>
                             <div className="relative">
                                 <h2 className="font-body text-white text-xl md:text-2xl font-medium tracking-wide text-center md:text-left">
-                                    FRONTEND (WEB & APP) DEVELOPER
+                                    FULL STACK JAVASCRIPT ENGINEER
                                 </h2>
                                 <div className="h-1 w-24 bg-accent-400 mt-2 rounded-full mx-auto md:mx-0"></div>
                             </div>
@@ -37,12 +37,12 @@ export const Header = () => {
                             <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 mt-4">
                                 <div className="flex items-center bg-primary-900 bg-opacity-30 rounded-full px-4 py-1.5">
                                     <FontAwesomeIcon icon={faStar} className="mr-2 text-accent-300" />
-                                    <span className="text-lg">11+ Years of Development Excellence</span>
+                                    <span className="text-lg">12+ Years of Development Experience</span>
                                 </div>
                                 
                                 <div className="flex items-center bg-blue-800 bg-opacity-50 rounded-full px-4 py-1.5">
                                     <FontAwesomeIcon icon={faBriefcase} className="mr-2 text-blue-300" />
-                                    <span>PayPal Engineer</span>
+                                    <span>Postman Platform Engineer</span>
                                 </div>
                             </div>
                             

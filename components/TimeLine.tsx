@@ -30,19 +30,35 @@ const PayPalAchievements = () => (
         <ul className="space-y-1 text-sm text-gray-700">
             <li className="flex items-start">
                 <FontAwesomeIcon icon={faCheckCircle} className="text-blue-500 mt-0.5 mr-1.5" />
-                <span>Led UI Refresh Project with WCAG accessibility standards</span>
+                <span>43% faster vaulting, +295 bps VSR and +154 bps CVR across 42+ merchants</span>
             </li>
             <li className="flex items-start">
                 <FontAwesomeIcon icon={faCheckCircle} className="text-blue-500 mt-0.5 mr-1.5" />
-                <span>Migrated Subscription Product from Angular to Next.js</span>
+                <span>Unblocked $20B+ TPV through PPMS migration and cross-border expansion</span>
             </li>
             <li className="flex items-start">
                 <FontAwesomeIcon icon={faCheckCircle} className="text-blue-500 mt-0.5 mr-1.5" />
-                <span>20% improvement in user engagement, 40% reduction in deployment time</span>
+                <span>40% faster deploys, 80–85% faster recovery and LLM-powered Slack on-call bots</span>
+            </li>
+        </ul>
+    </div>
+);
+
+const PostmanAchievements = () => (
+    <div className="mt-1 bg-indigo-50 p-2 rounded-md border border-indigo-100">
+        <h4 className="text-sm font-medium text-primary-700 mb-1">Key Impact:</h4>
+        <ul className="space-y-1 text-sm text-gray-700">
+            <li className="flex items-start">
+                <FontAwesomeIcon icon={faCheckCircle} className="text-indigo-500 mt-0.5 mr-1.5" />
+                <span>Moved releases from monthly to daily with GitHub Actions</span>
             </li>
             <li className="flex items-start">
-                <FontAwesomeIcon icon={faCheckCircle} className="text-blue-500 mt-0.5 mr-1.5" />
-                <span>Enabled 35% faster checkout experience</span>
+                <FontAwesomeIcon icon={faCheckCircle} className="text-indigo-500 mt-0.5 mr-1.5" />
+                <span>Migrated CI and adopted Graphite merge queues for sub-8-minute PR cycles</span>
+            </li>
+            <li className="flex items-start">
+                <FontAwesomeIcon icon={faCheckCircle} className="text-indigo-500 mt-0.5 mr-1.5" />
+                <span>Led Jest to Vitest migration, Rspack caching and Nx modularization</span>
             </li>
         </ul>
     </div>
@@ -57,8 +73,18 @@ export const TimeLine = () => {
                     steps={[
                         {
                             stepContent: () => <StepContent 
-                                dates={"Dec 2024 - Present"} 
-                                position={'Member Of Technical Staff'} 
+                                dates={"May 2026 - Present"} 
+                                position={'Senior Software Engineer – Platform'} 
+                                company={'Postman'} 
+                                achievements={<PostmanAchievements />}
+                            />,
+                            stepStatusCircleSize: 20,
+                            stepStateColor: "#1E2D56"
+                        },
+                        {
+                            stepContent: () => <StepContent 
+                                dates={"Dec 2024 - Apr 2026"} 
+                                position={'Senior Software Engineer'} 
                                 company={'PayPal Holdings, Inc'} 
                                 achievements={<PayPalAchievements />}
                             />,
@@ -110,15 +136,6 @@ export const TimeLine = () => {
                             stepStatusCircleSize: 20,
                             stepStateColor: "#3182CE"
                         },
-                        {
-                            stepContent: () => <StepContent 
-                                dates={"Summer 2013"} 
-                                position={'Summer Intern'} 
-                                company={'DRDO Dehradoon'} 
-                            />,
-                            stepStatusCircleSize: 20,
-                            stepStateColor: "#4338ca"
-                        }
                     ]}
                 />
             </div>

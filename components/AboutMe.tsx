@@ -16,12 +16,12 @@ export const AboutMe = () => {
             <div className="block md:hidden mb-6 text-center">
                 <ProfilePhoto size="small" className="mx-auto" />
                 <h4 className="text-lg font-medium text-primary-700 mt-2">Sachin Lohani</h4>
-                <p className="text-sm text-gray-600">Frontend Developer</p>
+                <p className="text-sm text-gray-600">Full Stack JavaScript Engineer</p>
             </div>
             
             <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p className="text-lg">
-                    Dedicated <span className="font-semibold text-primary-800">Principal Software Engineer</span> with <span className="font-semibold text-primary-800">11+ years</span> of experience specializing in frontend web and mobile app development. Currently working as a <span className="font-semibold text-primary-800">Member Of Technical Staff</span> at PayPal Holdings, Inc.
+                    Full Stack JavaScript Engineer with <span className="font-semibold text-primary-800">12+ years</span> of experience — frontend-heavy in React, Electron, Next.js and React Native, with Node.js, REST and GraphQL backend experience. Currently a <span className="font-semibold text-primary-800">Senior Software Engineer, Platform at Postman</span>, building release, CI, build-tooling and developer-experience infrastructure.
                 </p>
                 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 my-6">
@@ -31,7 +31,7 @@ export const AboutMe = () => {
                             <h4 className="font-medium text-primary-800">Development Expertise</h4>
                         </div>
                         <p className="text-gray-700">
-                            Specialized in building high-performance applications using <span className="font-semibold">React, Next.js, TypeScript</span>, and modern frameworks with emphasis on <span className="font-semibold">responsive design</span> and <span className="font-semibold">performance optimization</span>.
+                            Builds web and desktop products using <span className="font-semibold">React, Electron, Next.js, TypeScript and React Native</span>, with modular architectures that improve performance, reuse and independent delivery.
                         </p>
                     </div>
                     
@@ -41,7 +41,7 @@ export const AboutMe = () => {
                             <h4 className="font-medium text-blue-800">Accessibility Champion</h4>
                         </div>
                         <p className="text-gray-700">
-                            Dedicated to implementing <span className="font-semibold">WCAG accessibility standards</span> across all projects, ensuring inclusive digital experiences and ADA compliance for diverse user bases.
+                            Leads accessibility initiatives across web and mobile applications, implementing <span className="font-semibold">WCAG standards</span> and shared component systems for consistent, inclusive experiences.
                         </p>
                     </div>
                     
@@ -51,7 +51,7 @@ export const AboutMe = () => {
                             <h4 className="font-medium text-teal-800">Test Automation</h4>
                         </div>
                         <p className="text-gray-700">
-                            Expert in <span className="font-semibold">test automation</span> with <span className="font-semibold">WebdriverIO, Playwright, Selenium, Appium, and BrowserStack</span>, ensuring robust quality assurance and consistent user experiences.
+                            Builds reliable quality systems with <span className="font-semibold">Jest, Vitest, RTL, Selenium, Appium and WebdriverIO</span>, from unit checks and E2E automation to CI feedback in under 8 minutes.
                         </p>
                     </div>
                     
@@ -61,13 +61,13 @@ export const AboutMe = () => {
                             <h4 className="font-medium text-amber-800">CI/CD Implementation</h4>
                         </div>
                         <p className="text-gray-700">
-                            Established <span className="font-semibold">CI/CD pipelines</span> using <span className="font-semibold">Harness, Jenkins, and GitLab</span>, streamlining deployment workflows and accelerating development cycles while maintaining quality.
+                            Designs <span className="font-semibold">GitHub Actions, Harness, Jenkins and GitLab CI</span> platforms, Graphite merge workflows, Nx monorepos and observability with Datadog, Kibana and PagerDuty.
                         </p>
                     </div>
                 </div>
                 
                 <p>
-                    Proven track record of leading significant projects including UI refresh initiatives, implementing CI/CD pipelines, and migrating legacy applications to modern frameworks, resulting in <span className="font-semibold text-primary-700">measurable improvements in user engagement, accessibility compliance, and performance</span>.
+                    Proven track record across developer platforms, fintech and healthcare — from moving monthly releases to daily delivery and decoupling a large monolith into modular Nx packages, to shipping $20B+ payment journeys and building LLM-powered on-call and review bots.
                 </p>
                 
                 <div className="mt-5 pt-4 border-t border-gray-100">
